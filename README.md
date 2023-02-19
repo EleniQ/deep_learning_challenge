@@ -62,22 +62,27 @@ Using your knowledge of TensorFlow, optimize your model to achieve a target pred
 5 .Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
 ### Step 4: Write a Report on the Neural Network Model
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
-
-The report should contain the following:
 
 * Overview of the analysis: Explain the purpose of this analysis.
+
+The Alphabet Soup foundation is a non-profit organization who are attempting to identify the most suitable candidates to fund.
+I have attempted to do this using machine learning and neural networks. By evaluating the features in the given dataset to forecast the success of candiates in the event that they recieve funding. 
 
 * Results: Using bulleted lists and images to support your answers, address the following questions:
 
 * Data Preprocessing
 
-1. What variable(s) are the target(s) for your model?
-2. What variable(s) are the features for your model?
-3. What variable(s) should be removed from the input data because they are neither targets nor features?
-4. Compiling, Training, and Evaluating the Model
+#### 1. What variable(s) are the target(s) for your model?
+The target variable = IS_SUCCESSFUL column, 0/ 1.
+#### 2. What variable(s) are the features for your model?
 
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
-* What steps did you take in your attempts to increase model performance?
-* Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+#### 3. What variable(s) should be removed from the input data because they are neither targets nor features?
+
+### 4. Compiling, Training, and Evaluating the Model
+
+#### * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+#### * Were you able to achieve the target model performance?
+Unfortunatelty not, my target was 75%, I reached 73.34% on Test 2, I believe if I would have continued to run this test for a longer period, I may have gotten closer to my desired result.
+#### * What steps did you take in your attempts to increase model performance?
+#### * Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
