@@ -74,15 +74,15 @@ I have attempted to do this using machine learning and neural networks. By evalu
 
 #### 1. What variable(s) are the target(s) for your model?
 The target variable = IS_SUCCESSFUL column, 0/ 1.
-####2. What variable(s) are the features for your model?
+#### 2. What variable(s) are the features for your model?
 
-####3. What variable(s) should be removed from the input data because they are neither targets nor features?
+#### 3. What variable(s) should be removed from the input data because they are neither targets nor features?
 
-###4. Compiling, Training, and Evaluating the Model
+### 4. Compiling, Training, and Evaluating the Model
 
-####* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+#### * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-####* Were you able to achieve the target model performance?
+#### * Were you able to achieve the target model performance?
 Unfortunatelty not, my target was 75%, I reached 73.34% on Test 2, I believe if I would have continued to run this test for a longer period, I may have gotten closer to my desired result.
-####* What steps did you take in your attempts to increase model performance?
-####* Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+#### * What steps did you take in your attempts to increase model performance?
+#### * Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
