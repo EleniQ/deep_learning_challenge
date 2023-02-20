@@ -75,14 +75,20 @@ I have attempted to do this using machine learning and neural networks. By evalu
 #### 1. What variable(s) are the target(s) for your model?
 The target variable = IS_SUCCESSFUL column, 0/ 1.
 #### 2. What variable(s) are the features for your model?
-
+ ![variables](Images/variables.PNG)
+  
 #### 3. What variable(s) should be removed from the input data because they are neither targets nor features?
+ ![drops](Images/ein+name.PNG)
 
 ### 4. Compiling, Training, and Evaluating the Model
 
 #### * How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
+![1st](Images/1st.PNG)
+![2nd](Images/2nd.PNG)
+![3rd](Images/3rd.PNG) 
 #### * Were you able to achieve the target model performance?
 Unfortunatelty not, my target was 75%, I reached 73.34% on Test 2, I believe if I would have continued to run this test for a longer period, I may have gotten closer to my desired result.
 #### * What steps did you take in your attempts to increase model performance?
+I created a function during Test 2 and Test 3 and allowed kerasTuner to decide the number of hidden layers and neurons within the hidden layers in an attempt to increase accuracy, from Test 2 to Test 3 I included the sigmoid activation and pushed max value up from 30 to 80. 
 #### * Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+I'd recommened a Machine Learning model for this in future, Random Forest Classifier and SVM have very good results with Classification problems, and we could use the EIN/ Name columns in hope of achieving a higher result. 
